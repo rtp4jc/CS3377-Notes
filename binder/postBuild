@@ -1,0 +1,2 @@
+conda install -yc conda-forge xeus-cling
+
