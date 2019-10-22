@@ -1,5 +1,3 @@
-
-
 ```c++
 #include <pthread.h>
 ```
