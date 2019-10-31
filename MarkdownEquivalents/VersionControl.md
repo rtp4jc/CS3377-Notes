@@ -23,3 +23,23 @@
     - Has branching
     - Merges occur with each commit (1+ files)
     - Code review is done with pull requests
+
+## Strategies
+- Main Branch-centric
+    - The main branch is where development takes place
+    - Branches are made for long term changes
+    - No branches for bugfixes
+- Branches for everything
+    - Branch for anything (bug, feature, documentation)
+    - Helpful for code reviews, allows consistent pull requests that can have review requirements before being merged into the main product
+    
+- Continuous integration
+    - Pushing can trigger other things like automatic builds
+
+## Scenarios
+- A bug is found in all 3 versions of your product
+    - V1.0 has 30% of your customers
+    - V2.0 has 70% of your customers
+    - V3.0 is in development
+    - Which should you update first
+        - V1.0 because the patches are easier to apply from older versions because it 
